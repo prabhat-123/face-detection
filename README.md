@@ -23,4 +23,4 @@
   ![](facedetection/images/real/hello.jpg)
   
 ## DETECTED IMAGE (IMAGE AFTER DETECTING FACE)
-  ![](facedetection/images/detected/detector.jpg)
+  ![](facedetection/images/detected/detectface.jpg)
