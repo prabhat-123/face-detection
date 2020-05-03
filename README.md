@@ -1,4 +1,4 @@
-# face-detection
+# Face-Detection-Using-OpenCV
  Face Detection is a computer technology being used in a variety of applications that identifies human faces in digital images. Face 
  Detection is the first step to Face Recognition.
  
@@ -15,3 +15,9 @@
  Viola-Jones was designed for frontal faces,so it is able to detect frontal the best rather than faces looking sideways, upwards or 
  downwards. Before detecting a face, the image is converted into grayscale, since it is easier to work with and there’s lesser data to
  process. The Viola-Jones algorithm first detects the face on the grayscale image and then finds the location on the colored image.
+ 
+ 
+ Viola-Jones algorithm is available in OpenCV library so we have used opencv library to detect faces in images. The algorithm works on the basis of Haar-Cascade Classifier(i.e Harr Features). Here in this repository, we have detected frontal face using frontal face default xml file.
+ 
+ 
+ 
