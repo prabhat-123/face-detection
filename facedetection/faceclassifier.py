@@ -15,5 +15,5 @@ for x,y,w,h in faces:
 
 cv.imshow("Gray",resizeimg)
 
-cv.waitKey(0)
+cv.waitKey(1)
 cv.destroyAllWindows()
