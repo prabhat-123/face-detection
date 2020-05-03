@@ -13,7 +13,8 @@ print(faces)
 for x,y,w,h in faces:
     img= cv.rectangle(resizeimg,(x,y),(x+w,y+h),(0,255,0),3)
 
-cv.imshow("Gray",resizeimg)
+cv.imwrite("C:/Users/ASUS/Desktop/face_detection/facedetection/images/detected/detectface.jpg",resizeimg)
+
 
 cv.waitKey(1)
 cv.destroyAllWindows()
